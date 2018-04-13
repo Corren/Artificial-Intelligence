@@ -1,0 +1,11 @@
+Gradient Descent Optimizer Accuracy: 0.9197
+Gradient Descent Optimizer Accuracy: 0.9178
+Gradient Descent Optimizer Accuracy: 0.9186
+Gradient Descent Optimizer Accuracy: 0.9173
+Gradient Descent Optimizer Accuracy: 0.9189
+Gradient Descent Optimizer Accuracy: 0.9167
+Gradient Descent Optimizer Accuracy: 0.918
+Gradient Descent Optimizer Accuracy: 0.9218
+Gradient Descent Optimizer Accuracy: 0.9168
+Gradient Descent Optimizer Accuracy: 0.9172
+Gradient Descent Optimizer Accuracy: 0.9167

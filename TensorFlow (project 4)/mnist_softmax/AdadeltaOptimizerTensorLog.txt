@@ -1,0 +1,7 @@
+Adadelta Optimizer Optimizer Accuracy: 0.9163
+Adadelta Optimizer Optimizer Accuracy: 0.9176
+Adadelta Optimizer Optimizer Accuracy: 0.9201
+Adadelta Optimizer Optimizer Accuracy: 0.9154
+Adadelta Optimizer Optimizer Accuracy: 0.911
+Adadelta Optimizer Optimizer Accuracy: 0.9124
+Adadelta Optimizer Optimizer Accuracy: 0.9205

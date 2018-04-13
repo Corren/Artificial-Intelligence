@@ -1,0 +1,8 @@
+RMS Prop Optimizer Accuracy: 0.8958
+RMS Prop Optimizer Accuracy: 0.8181
+RMS Prop Optimizer Accuracy: 0.8466
+RMS Prop Optimizer Accuracy: 0.87
+RMS Prop Optimizer Accuracy: 0.9046
+RMS Prop Optimizer Accuracy: 0.888
+RMS Prop Optimizer Accuracy: 0.8871
+RMS Prop Optimizer Accuracy: 0.8706

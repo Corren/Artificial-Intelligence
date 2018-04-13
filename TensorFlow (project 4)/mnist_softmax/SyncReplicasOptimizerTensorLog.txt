@@ -1,0 +1,7 @@
+Sync Replicas Optimizer Optimizer Accuracy: 0.9122
+Sync Replicas Optimizer Optimizer Accuracy: 0.9173
+Sync Replicas Optimizer Optimizer Accuracy: 0.9171
+Sync Replicas Optimizer Optimizer Accuracy: 0.9163
+Sync Replicas Optimizer Optimizer Accuracy: 0.9169
+Sync Replicas Optimizer Optimizer Accuracy: 0.9153
+Sync Replicas Optimizer Optimizer Accuracy: 0.9127

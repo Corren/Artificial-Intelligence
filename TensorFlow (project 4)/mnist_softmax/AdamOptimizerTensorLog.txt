@@ -1,0 +1,6 @@
+Adam Optimizer Accuracy: 0.894
+Adam Optimizer Accuracy: 0.8864
+Adam Optimizer Accuracy: 0.8965
+Adam Optimizer Accuracy: 0.8687
+Adam Optimizer Accuracy: 0.8945
+Adam Optimizer Accuracy: 0.887

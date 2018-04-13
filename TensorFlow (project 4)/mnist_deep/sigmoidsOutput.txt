@@ -1,0 +1,392 @@
+C:\Users\Jonathan\pyton\part2>python mnist_deep.py
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\stream_executor\dso_loader.cc:128] successfully opened CUDA library cublas64_80.dll locally
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\stream_executor\dso_loader.cc:128] successfully opened CUDA library cudnn64_5.dll locally
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\stream_executor\dso_loader.cc:128] successfully opened CUDA library cufft64_80.dll locally
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\stream_executor\dso_loader.cc:128] successfully opened CUDA library nvcuda.dll locally
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\stream_executor\dso_loader.cc:128] successfully opened CUDA library curand64_80.dll locally
+Extracting /tmp/tensorflow/mnist/input_data\train-images-idx3-ubyte.gz
+Extracting /tmp/tensorflow/mnist/input_data\train-labels-idx1-ubyte.gz
+Extracting /tmp/tensorflow/mnist/input_data\t10k-images-idx3-ubyte.gz
+Extracting /tmp/tensorflow/mnist/input_data\t10k-labels-idx1-ubyte.gz
+Saving graph to: C:\Users\Jonathan\AppData\Local\Temp\tmpfuueqjpg
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:885] Found device 0 with properties:
+name: GeForce 940M
+major: 5 minor: 0 memoryClockRate (GHz) 1.176
+pciBusID 0000:04:00.0
+Total memory: 2.00GiB
+Free memory: 1.66GiB
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:906] DMA: 0
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:916] 0:   Y
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce 940M, pci bus id: 0000:04:00.0)
+step 0, training accuracy 0
+step 100, training accuracy 0.82
+step 200, training accuracy 0.92
+step 300, training accuracy 0.92
+step 400, training accuracy 0.98
+step 500, training accuracy 0.92
+step 600, training accuracy 0.98
+step 700, training accuracy 0.92
+step 800, training accuracy 0.92
+step 900, training accuracy 0.98
+step 1000, training accuracy 0.96
+step 1100, training accuracy 0.94
+step 1200, training accuracy 0.94
+step 1300, training accuracy 0.94
+step 1400, training accuracy 0.96
+step 1500, training accuracy 1
+step 1600, training accuracy 0.98
+step 1700, training accuracy 0.98
+step 1800, training accuracy 0.96
+step 1900, training accuracy 1
+step 2000, training accuracy 0.94
+step 2100, training accuracy 0.98
+step 2200, training accuracy 1
+step 2300, training accuracy 0.98
+step 2400, training accuracy 0.98
+step 2500, training accuracy 1
+step 2600, training accuracy 1
+step 2700, training accuracy 1
+step 2800, training accuracy 0.98
+step 2900, training accuracy 0.96
+step 3000, training accuracy 1
+step 3100, training accuracy 1
+step 3200, training accuracy 0.98
+step 3300, training accuracy 0.98
+step 3400, training accuracy 0.96
+step 3500, training accuracy 0.98
+step 3600, training accuracy 1
+step 3700, training accuracy 1
+step 3800, training accuracy 0.98
+step 3900, training accuracy 0.96
+step 4000, training accuracy 1
+step 4100, training accuracy 0.98
+step 4200, training accuracy 0.98
+step 4300, training accuracy 0.98
+step 4400, training accuracy 1
+step 4500, training accuracy 1
+step 4600, training accuracy 1
+step 4700, training accuracy 1
+step 4800, training accuracy 0.98
+step 4900, training accuracy 0.96
+step 5000, training accuracy 0.98
+step 5100, training accuracy 0.98
+step 5200, training accuracy 1
+step 5300, training accuracy 0.98
+step 5400, training accuracy 1
+step 5500, training accuracy 1
+step 5600, training accuracy 1
+step 5700, training accuracy 1
+step 5800, training accuracy 1
+step 5900, training accuracy 1
+step 6000, training accuracy 0.96
+step 6100, training accuracy 0.98
+step 6200, training accuracy 0.98
+step 6300, training accuracy 1
+step 6400, training accuracy 0.98
+step 6500, training accuracy 0.98
+step 6600, training accuracy 1
+step 6700, training accuracy 0.98
+step 6800, training accuracy 1
+step 6900, training accuracy 1
+step 7000, training accuracy 1
+step 7100, training accuracy 0.98
+step 7200, training accuracy 1
+step 7300, training accuracy 1
+step 7400, training accuracy 0.98
+step 7500, training accuracy 1
+step 7600, training accuracy 0.96
+step 7700, training accuracy 1
+step 7800, training accuracy 1
+step 7900, training accuracy 1
+step 8000, training accuracy 1
+step 8100, training accuracy 1
+step 8200, training accuracy 1
+step 8300, training accuracy 1
+step 8400, training accuracy 0.98
+step 8500, training accuracy 0.98
+step 8600, training accuracy 1
+step 8700, training accuracy 1
+step 8800, training accuracy 0.98
+step 8900, training accuracy 1
+step 9000, training accuracy 1
+step 9100, training accuracy 1
+step 9200, training accuracy 1
+step 9300, training accuracy 1
+step 9400, training accuracy 1
+step 9500, training accuracy 1
+step 9600, training accuracy 1
+step 9700, training accuracy 0.98
+step 9800, training accuracy 1
+step 9900, training accuracy 1
+step 10000, training accuracy 1
+step 10100, training accuracy 0.98
+step 10200, training accuracy 1
+step 10300, training accuracy 1
+step 10400, training accuracy 1
+step 10500, training accuracy 1
+step 10600, training accuracy 1
+step 10700, training accuracy 1
+step 10800, training accuracy 1
+step 10900, training accuracy 1
+step 11000, training accuracy 0.98
+step 11100, training accuracy 1
+step 11200, training accuracy 0.98
+step 11300, training accuracy 0.98
+step 11400, training accuracy 0.98
+step 11500, training accuracy 1
+step 11600, training accuracy 0.98
+step 11700, training accuracy 1
+step 11800, training accuracy 1
+step 11900, training accuracy 1
+step 12000, training accuracy 0.98
+step 12100, training accuracy 1
+step 12200, training accuracy 1
+step 12300, training accuracy 1
+step 12400, training accuracy 1
+step 12500, training accuracy 1
+step 12600, training accuracy 1
+step 12700, training accuracy 0.98
+step 12800, training accuracy 1
+step 12900, training accuracy 0.98
+step 13000, training accuracy 1
+step 13100, training accuracy 1
+step 13200, training accuracy 1
+step 13300, training accuracy 1
+step 13400, training accuracy 1
+step 13500, training accuracy 1
+step 13600, training accuracy 1
+step 13700, training accuracy 1
+step 13800, training accuracy 1
+step 13900, training accuracy 1
+step 14000, training accuracy 1
+step 14100, training accuracy 1
+step 14200, training accuracy 1
+step 14300, training accuracy 0.98
+step 14400, training accuracy 1
+step 14500, training accuracy 1
+step 14600, training accuracy 1
+step 14700, training accuracy 1
+step 14800, training accuracy 1
+step 14900, training accuracy 1
+step 15000, training accuracy 1
+step 15100, training accuracy 1
+step 15200, training accuracy 1
+step 15300, training accuracy 1
+step 15400, training accuracy 1
+step 15500, training accuracy 1
+step 15600, training accuracy 1
+step 15700, training accuracy 1
+step 15800, training accuracy 1
+step 15900, training accuracy 1
+step 16000, training accuracy 1
+step 16100, training accuracy 1
+step 16200, training accuracy 1
+step 16300, training accuracy 1
+step 16400, training accuracy 1
+step 16500, training accuracy 1
+step 16600, training accuracy 1
+step 16700, training accuracy 1
+step 16800, training accuracy 1
+step 16900, training accuracy 1
+step 17000, training accuracy 1
+step 17100, training accuracy 1
+step 17200, training accuracy 1
+step 17300, training accuracy 1
+step 17400, training accuracy 1
+step 17500, training accuracy 1
+step 17600, training accuracy 1
+step 17700, training accuracy 1
+step 17800, training accuracy 1
+step 17900, training accuracy 1
+step 18000, training accuracy 1
+step 18100, training accuracy 1
+step 18200, training accuracy 1
+step 18300, training accuracy 1
+step 18400, training accuracy 1
+step 18500, training accuracy 1
+step 18600, training accuracy 1
+step 18700, training accuracy 1
+step 18800, training accuracy 1
+step 18900, training accuracy 1
+step 19000, training accuracy 1
+step 19100, training accuracy 1
+step 19200, training accuracy 1
+step 19300, training accuracy 1
+step 19400, training accuracy 1
+step 19500, training accuracy 1
+step 19600, training accuracy 1
+step 19700, training accuracy 1
+step 19800, training accuracy 1
+step 19900, training accuracy 1
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:643] Bin (256):        Total Chunks: 0, Chunks in use: 0 0B allocated for chunks. 0B client-requested for chunks. 0B in use in bin. 0B client-requested in use in bin.
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:643] Bin (512):        Total Chunks: 1, Chunks in use: 0 768B allocated for chunks. 4B client-requested for chunks. 0B in use in bin. 0B client-requested in use in bin.
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:643] Bin (1024):       Total Chunks: 0, Chunks in use: 0 0B allocated for chunks. 0B client-requested for chunks. 0B in use in bin. 0B client-requested in use in bin.
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:643] Bin (2048):       Total Chunks: 0, Chunks in use: 0 0B allocated for chunks. 0B client-requested for chunks. 0B in use in bin. 0B client-requested in use in bin.
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:643] Bin (4096):       Total Chunks: 0, Chunks in use: 0 0B allocated for chunks. 0B client-requested for chunks. 0B in use in bin. 0B client-requested in use in bin.
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:643] Bin (8192):       Total Chunks: 0, Chunks in use: 0 0B allocated for chunks. 0B client-requested for chunks. 0B in use in bin. 0B client-requested in use in bin.
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:643] Bin (16384):      Total Chunks: 0, Chunks in use: 0 0B allocated for chunks. 0B client-requested for chunks. 0B in use in bin. 0B client-requested in use in bin.
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:643] Bin (32768):      Total Chunks: 1, Chunks in use: 0 36.8KiB allocated for chunks. 4.79MiB client-requested for chunks. 0B in use in bin. 0B client-requested in use in bin.
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:643] Bin (65536):      Total Chunks: 1, Chunks in use: 0 78.5KiB allocated for chunks. 4.79MiB client-requested for chunks. 0B in use in bin. 0B client-requested in use in bin.
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:643] Bin (131072):     Total Chunks: 1, Chunks in use: 0 200.0KiB allocated for chunks. 153.1KiB client-requested for chunks. 0B in use in bin. 0B client-requested in use in bin.
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:643] Bin (262144):     Total Chunks: 0, Chunks in use: 0 0B allocated for chunks. 0B client-requested for chunks. 0B in use in bin. 0B client-requested in use in bin.
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:643] Bin (524288):     Total Chunks: 0, Chunks in use: 0 0B allocated for chunks. 0B client-requested for chunks. 0B in use in bin. 0B client-requested in use in bin.
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:643] Bin (1048576):    Total Chunks: 0, Chunks in use: 0 0B allocated for chunks. 0B client-requested for chunks. 0B in use in bin. 0B client-requested in use in bin.
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:643] Bin (2097152):    Total Chunks: 0, Chunks in use: 0 0B allocated for chunks. 0B client-requested for chunks. 0B in use in bin. 0B client-requested in use in bin.
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:643] Bin (4194304):    Total Chunks: 0, Chunks in use: 0 0B allocated for chunks. 0B client-requested for chunks. 0B in use in bin. 0B client-requested in use in bin.
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:643] Bin (8388608):    Total Chunks: 1, Chunks in use: 0 11.86MiB allocated for chunks. 390.6KiB client-requested for chunks. 0B in use in bin. 0B client-requested in use in bin.
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:643] Bin (16777216):   Total Chunks: 0, Chunks in use: 0 0B allocated for chunks. 0B client-requested for chunks. 0B in use in bin. 0B client-requested in use in bin.
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:643] Bin (33554432):   Total Chunks: 0, Chunks in use: 0 0B allocated for chunks. 0B client-requested for chunks. 0B in use in bin. 0B client-requested in use in bin.
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:643] Bin (67108864):   Total Chunks: 0, Chunks in use: 0 0B allocated for chunks. 0B client-requested for chunks. 0B in use in bin. 0B client-requested in use in bin.
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:643] Bin (134217728):  Total Chunks: 0, Chunks in use: 0 0B allocated for chunks. 0B client-requested for chunks. 0B in use in bin. 0B client-requested in use in bin.
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:643] Bin (268435456):  Total Chunks: 0, Chunks in use: 0 0B allocated for chunks. 0B client-requested for chunks. 0B in use in bin. 0B client-requested in use in bin.
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:660] Bin for 957.03MiB was 256.00MiB, Chunk State:
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:678] Chunk at 0000000500EC0000 of size 1280
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:678] Chunk at 0000000500EC0500 of size 256
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:678] Chunk at 0000000500EC0600 of size 256
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:678] Chunk at 0000000500EC0700 of size 256
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:678] Chunk at 0000000500EC0800 of size 256
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:678] Chunk at 0000000500EC0900 of size 4096
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:678] Chunk at 0000000500EC1900 of size 256
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:678] Chunk at 0000000500EC1A00 of size 256
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:678] Chunk at 0000000500EC1B00 of size 256
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:678] Chunk at 0000000500EC1C00 of size 3328
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:678] Chunk at 0000000500EC2900 of size 256
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:678] Chunk at 0000000500EC2A00 of size 204800
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:678] Chunk at 0000000500EF4A00 of size 256
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:678] Chunk at 0000000500EF4B00 of size 12845056
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:678] Chunk at 0000000501B34B00 of size 4096
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:678] Chunk at 0000000501B35B00 of size 40960
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:678] Chunk at 0000000501B3FB00 of size 256
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:678] Chunk at 0000000501B3FC00 of size 256
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:678] Chunk at 0000000501B3FD00 of size 256
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:678] Chunk at 0000000501B3FE00 of size 256
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:678] Chunk at 0000000501B3FF00 of size 256
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:678] Chunk at 0000000501B40000 of size 256
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:678] Chunk at 0000000501B40100 of size 256
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:678] Chunk at 0000000501B40200 of size 256
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:678] Chunk at 0000000501B40300 of size 256
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:678] Chunk at 0000000501B40400 of size 256
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:678] Chunk at 0000000501B40500 of size 256
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:678] Chunk at 0000000501B40900 of size 256
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:678] Chunk at 0000000501B40A00 of size 3328
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:678] Chunk at 0000000501B41700 of size 40960
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:678] Chunk at 0000000501B4B700 of size 80128
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:678] Chunk at 0000000501B72A00 of size 256
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:678] Chunk at 0000000501BA4B00 of size 204800
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:678] Chunk at 00000005027B2B00 of size 4096
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:678] Chunk at 00000005027B3B00 of size 3328
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:678] Chunk at 00000005027BDB00 of size 256
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:678] Chunk at 00000005027BDC00 of size 256
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:678] Chunk at 00000005027BDD00 of size 256
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:678] Chunk at 00000005027BDE00 of size 3328
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:678] Chunk at 00000005027BEB00 of size 3328
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:678] Chunk at 00000005027BF800 of size 256
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:678] Chunk at 00000005027BF900 of size 256
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:678] Chunk at 00000005027BFA00 of size 204800
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:678] Chunk at 00000005027F1A00 of size 204800
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:678] Chunk at 0000000502823A00 of size 256
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:678] Chunk at 0000000502823B00 of size 256
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:678] Chunk at 0000000502823C00 of size 12845056
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:678] Chunk at 0000000503463C00 of size 12845056
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:678] Chunk at 00000005040A3C00 of size 4096
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:678] Chunk at 00000005040A4C00 of size 4096
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:678] Chunk at 00000005040A5C00 of size 40960
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:678] Chunk at 00000005040AFC00 of size 40960
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:678] Chunk at 00000005040B9C00 of size 256
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:678] Chunk at 00000005040B9D00 of size 256
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:678] Chunk at 00000005040B9E00 of size 13053184
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:678] Chunk at 0000000504D2CB00 of size 31360000
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:678] Chunk at 0000000506B14F00 of size 1476590848
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:687] Free at 0000000501B40600 of size 768
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:687] Free at 0000000501B5F000 of size 80384
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:687] Free at 0000000501B72B00 of size 204800
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:687] Free at 0000000501BD6B00 of size 12435456
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:687] Free at 00000005027B4800 of size 37632
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:693]      Summary of in-use Chunks by size:
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:696] 31 Chunks of size 256 totalling 7.8KiB
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:696] 1 Chunks of size 1280 totalling 1.3KiB
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:696] 5 Chunks of size 3328 totalling 16.3KiB
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:696] 5 Chunks of size 4096 totalling 20.0KiB
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:696] 4 Chunks of size 40960 totalling 160.0KiB
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:696] 1 Chunks of size 80128 totalling 78.3KiB
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:696] 4 Chunks of size 204800 totalling 800.0KiB
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:696] 3 Chunks of size 12845056 totalling 36.75MiB
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:696] 1 Chunks of size 13053184 totalling 12.45MiB
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:696] 1 Chunks of size 31360000 totalling 29.91MiB
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:696] 1 Chunks of size 1476590848 totalling 1.38GiB
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:700] Sum Total of in-use chunks: 1.45GiB
+I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:702] Stats:
+Limit:                  1573407948
+InUse:                  1560648704
+MaxInUse:               1561048832
+NumAllocs:                 2087290
+MaxAllocSize:           1476590848
+
+W c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:274] **********************************************************************xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+W c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\bfc_allocator.cc:275] Ran out of memory trying to allocate 957.03MiB.  See logs for memory state.
+W c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\framework\op_kernel.cc:975] Resource exhausted: OOM when allocating tensor with shape[10000,32,28,28]
+Traceback (most recent call last):
+  File "C:\Users\Jonathan\AppData\Local\Programs\Python\Python35\lib\site-packages\tensorflow\python\client\session.py", line 1021, in _do_call
+    return fn(*args)
+  File "C:\Users\Jonathan\AppData\Local\Programs\Python\Python35\lib\site-packages\tensorflow\python\client\session.py", line 1003, in _run_fn
+    status, run_metadata)
+  File "C:\Users\Jonathan\AppData\Local\Programs\Python\Python35\lib\contextlib.py", line 66, in __exit__
+    next(self.gen)
+  File "C:\Users\Jonathan\AppData\Local\Programs\Python\Python35\lib\site-packages\tensorflow\python\framework\errors_impl.py", line 469, in raise_exception_on_not_ok_status
+    pywrap_tensorflow.TF_GetCode(status))
+tensorflow.python.framework.errors_impl.ResourceExhaustedError: OOM when allocating tensor with shape[10000,32,28,28]
+         [[Node: conv1/Conv2D = Conv2D[T=DT_FLOAT, data_format="NHWC", padding="SAME", strides=[1, 1, 1, 1], use_cudnn_on_gpu=true, _device="/job:localhost/replica:0/task:0/gpu:0"](reshape/Reshape, conv1/Variable/read)]]
+         [[Node: Mean_1/_7 = _Recv[client_terminated=false, recv_device="/job:localhost/replica:0/task:0/cpu:0", send_device="/job:localhost/replica:0/task:0/gpu:0", send_device_incarnation=1, tensor_name="edge_36_Mean_1", tensor_type=DT_FLOAT, _device="/job:localhost/replica:0/task:0/cpu:0"]()]]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "mnist_deep.py", line 176, in <module>
+    tf.app.run(main=main, argv=[sys.argv[0]] + unparsed)
+  File "C:\Users\Jonathan\AppData\Local\Programs\Python\Python35\lib\site-packages\tensorflow\python\platform\app.py", line 43, in run
+    sys.exit(main(sys.argv[:1] + flags_passthrough))
+  File "mnist_deep.py", line 168, in main
+    x: mnist.test.images, y_: mnist.test.labels, keep_prob: 1.0}))
+  File "C:\Users\Jonathan\AppData\Local\Programs\Python\Python35\lib\site-packages\tensorflow\python\framework\ops.py", line 575, in eval
+    return _eval_using_default_session(self, feed_dict, self.graph, session)
+  File "C:\Users\Jonathan\AppData\Local\Programs\Python\Python35\lib\site-packages\tensorflow\python\framework\ops.py", line 3633, in _eval_using_default_session
+    return session.run(tensors, feed_dict)
+  File "C:\Users\Jonathan\AppData\Local\Programs\Python\Python35\lib\site-packages\tensorflow\python\client\session.py", line 766, in run
+    run_metadata_ptr)
+  File "C:\Users\Jonathan\AppData\Local\Programs\Python\Python35\lib\site-packages\tensorflow\python\client\session.py", line 964, in _run
+    feed_dict_string, options, run_metadata)
+  File "C:\Users\Jonathan\AppData\Local\Programs\Python\Python35\lib\site-packages\tensorflow\python\client\session.py", line 1014, in _do_run
+    target_list, options, run_metadata)
+  File "C:\Users\Jonathan\AppData\Local\Programs\Python\Python35\lib\site-packages\tensorflow\python\client\session.py", line 1034, in _do_call
+    raise type(e)(node_def, op, message)
+tensorflow.python.framework.errors_impl.ResourceExhaustedError: OOM when allocating tensor with shape[10000,32,28,28]
+         [[Node: conv1/Conv2D = Conv2D[T=DT_FLOAT, data_format="NHWC", padding="SAME", strides=[1, 1, 1, 1], use_cudnn_on_gpu=true, _device="/job:localhost/replica:0/task:0/gpu:0"](reshape/Reshape, conv1/Variable/read)]]
+         [[Node: Mean_1/_7 = _Recv[client_terminated=false, recv_device="/job:localhost/replica:0/task:0/cpu:0", send_device="/job:localhost/replica:0/task:0/gpu:0", send_device_incarnation=1, tensor_name="edge_36_Mean_1", tensor_type=DT_FLOAT, _device="/job:localhost/replica:0/task:0/cpu:0"]()]]
+
+Caused by op 'conv1/Conv2D', defined at:
+  File "mnist_deep.py", line 176, in <module>
+    tf.app.run(main=main, argv=[sys.argv[0]] + unparsed)
+  File "C:\Users\Jonathan\AppData\Local\Programs\Python\Python35\lib\site-packages\tensorflow\python\platform\app.py", line 43, in run
+    sys.exit(main(sys.argv[:1] + flags_passthrough))
+  File "mnist_deep.py", line 137, in main
+    y_conv, keep_prob = deepnn(x)
+  File "mnist_deep.py", line 63, in deepnn
+    h_conv1 = tf.nn.relu(conv2d(x_image, W_conv1) + b_conv1)
+  File "mnist_deep.py", line 105, in conv2d
+    return tf.nn.conv2d(x, W, strides=[1, 1, 1, 1], padding='SAME')
+  File "C:\Users\Jonathan\AppData\Local\Programs\Python\Python35\lib\site-packages\tensorflow\python\ops\gen_nn_ops.py", line 396, in conv2d
+    data_format=data_format, name=name)
+  File "C:\Users\Jonathan\AppData\Local\Programs\Python\Python35\lib\site-packages\tensorflow\python\framework\op_def_library.py", line 759, in apply_op
+    op_def=op_def)
+  File "C:\Users\Jonathan\AppData\Local\Programs\Python\Python35\lib\site-packages\tensorflow\python\framework\ops.py", line 2240, in create_op
+    original_op=self._default_original_op, op_def=op_def)
+  File "C:\Users\Jonathan\AppData\Local\Programs\Python\Python35\lib\site-packages\tensorflow\python\framework\ops.py", line 1128, in __init__
+    self._traceback = _extract_stack()
+
+ResourceExhaustedError (see above for traceback): OOM when allocating tensor with shape[10000,32,28,28]
+         [[Node: conv1/Conv2D = Conv2D[T=DT_FLOAT, data_format="NHWC", padding="SAME", strides=[1, 1, 1, 1], use_cudnn_on_gpu=true, _device="/job:localhost/replica:0/task:0/gpu:0"](reshape/Reshape, conv1/Variable/read)]]
+         [[Node: Mean_1/_7 = _Recv[client_terminated=false, recv_device="/job:localhost/replica:0/task:0/cpu:0", send_device="/job:localhost/replica:0/task:0/gpu:0", send_device_incarnation=1, tensor_name="edge_36_Mean_1", tensor_type=DT_FLOAT, _device="/job:localhost/replica:0/task:0/cpu:0"]()]]
+
+E c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\stream_executor\cuda\cuda_gpu_executor.cc:652] Deallocating stream with pending work
+
+C:\Users\Jonathan\pyton\part2>
